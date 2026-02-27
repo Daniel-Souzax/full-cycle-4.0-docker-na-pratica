@@ -1,0 +1,2 @@
+FROM dan/docker-node-base:latest
+
