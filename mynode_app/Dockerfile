@@ -1,6 +1,6 @@
 ARG NODE_VERSION=21.1.0
-FROM node:${NODE_VERSION}
-# FROM node:${NODE_VERSION}-slim
+#FROM node:${NODE_VERSION}
+FROM node:${NODE_VERSION}-slim
 # FROM node:${NODE_VERSION}-slim
 
 RUN apt-get update && apt-get install -y vim && rm -rf /var/lib/apt/lists/*
